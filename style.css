@@ -1,0 +1,41 @@
+@import url("./blocks/header/header.css");
+@import url("./blocks/lamp/lamp.css");
+@import url("./blocks/about/about.css");
+@import url("./blocks/partners/partners.css");
+
+.page{
+    width: 1240px;
+    margin: 0 auto;
+    font-family: "Calibri";
+}
+
+
+@media screen and (max-width: 1024px) {
+    .page {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        width:768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page{
+        width:425px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        width: 320px;
+    }
+}
